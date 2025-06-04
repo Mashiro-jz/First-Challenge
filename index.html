@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 100px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background-color: hsl(212, 45%, 89%);
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #qrCard{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      background-color: white;
+      padding: 15px;
+      border-radius: 20px;
+      width: 250px;
+      text-align: center;
+    }
+    #image{
+      border-radius: 10px;
+    }
+    #head2{
+      color: hsl(218, 44%, 22%);
+      font-family: "Outfit", cursive;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    #qrCard p{
+      font-family: "Outfit", cursive;
+      font-size: 15px;
+      font-weight: 400;
+      color: hsl(216, 15%, 48%);
+    }
+  </style>
+</head>
+<body>
+  <div id="qrCard">
+    <img src="./images/image-qr-code.png" alt="image-qr-code" id="image">
+    <h2 id="head2">Improve your front-end skills by building projects</h2>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mashiro-jz</a>.
+  </div>
+</body>
+</html>
